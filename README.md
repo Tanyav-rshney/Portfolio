@@ -24,7 +24,7 @@ This website showcases my **skills, projects, certificates**, and how to connect
 
 ## 📷 Screenshot
 
-![Portfolio Screenshot](tanya.jpg)
+![Portfolio Screenshot](screenshot.png)
 
 ---
 
