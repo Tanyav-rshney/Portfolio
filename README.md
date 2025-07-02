@@ -18,7 +18,8 @@ This website showcases my **skills, projects, certificates**, and how to connect
 
 ## 🌐 Live Portfolio Link
 
-🔗 [Visit my portfolio](https://Tanyav-rshney.github.io/portfolio/)  
+🔗 [Visit my portfolio](
+https://tanyav-rshney.github.io/Portfolio/)  
 
 ---
 
@@ -44,7 +45,7 @@ This website showcases my **skills, projects, certificates**, and how to connect
 - [GitHub](https://github.com/Tanyav-rshney)
 - [LinkedIn](https://www.linkedin.com/in/tanya-varshney-069839348/)
 - [Instagram](https://www.instagram.com/tanyav_rshney102/)
-- Email: tv728879@gmail.com
+
 
 ---
 
