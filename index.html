@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="tanya.jpg" alt="Tanya Varshney" class="profile-pic">
+    <h1>Tanya Varshney</h1>
+    <p>BCA student | Learning Web Development | GLA University</p>
+
+
+    <div class="toggle-container">
+      <label class="switch">
+            <input type="checkbox" onclick="toggleDarkMode()">
+             <span class="slider"></span>
+       </label>
+    </div>
+
+  </header>
+
+  <nav>
+     <button onclick="showSection('Home')">Home</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('certificates')">Certificates</button>
+    <button onclick="showSection('contact')">Contact</button>
+  </nav>
+
+   
+  <section id="Home" class="active">
+    <h2 class="fade-slide">Welcome 👋</h2>
+    <p class="fade-slide delay">Hi, I'm Tanya Varshney — a BCA student currently learning web development.  
+      I'm exploring technologies like HTML, CSS, JavaScript, and React, and building small projects to improve my skills.  
+      I enjoy creating simple and useful websites as I continue to grow in this field.</p>
+  </section>
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>🧮 <strong>Calculator App</strong> - <a href="https://tanyav-rshney.github.io/Calculator/" target="_blank">Live Demo</a></li>
+      <li>🏏 <strong>Bat Ball Stump Game</strong> - <a href="https://tanyav-rshney.github.io/bat-ball-stump-game/" target="_blank">Live Demo</a></li>
+      <li>✅ <strong>Todo List App</strong> - <a href="https://tanyav-rshney.github.io/todo-app/" target="_blank">Live Demo</a></li>
+      <li>🛍️ <strong>Myntra Functional Clone</strong> - <a href="https://tanyav-rshney.github.io/myntra-clone/" target="_blank">Live Demo</a></li>
+    </ul>
+  </section>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <!--<p>📌 Coming soon... (2 certificates will be added here)</p> -->
+    <img src="certificates/certificate1.jpg">
+    <img src="certificates/certificate2.jpg">
+  </section>
+
+  <section id="contact">
+    <h2>Connect with Me</h2>
+    <div class="links">
+      <a href="https://github.com/Tanyav-rshney" target="_blank">💻 GitHub</a>
+      <a href="mailto:tv728879@gmail.com">📩 Email</a>
+      <a href="https://www.linkedin.com/in/tanya-varshney-069839348/" target="_blank">💼 LinkedIn</a>
+      <a href="https://www.instagram.com/tanyav_rshney102/" target="_blank">📸 Instagram</a>
+      <a href="#">👻 Snapchat</a>
+    </div>
+  </section>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+  
+  <script>
+  function showSection(id) {
+    document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+  }
+  </script>
+
+
+
+
+
+  <!-- <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const typewriterText = "Hi, I'm Tanya Varshney — a BCA student currently learning web development.";
+    const element = document.querySelector(".typewriter");
+    element.textContent = typewriterText;
+  });
+</script> -->
+
+<footer>
+<h1>Designed & Developed by Tanya Varshney © 2025</h1>
+</footer>
+
+</body>
+</html>
